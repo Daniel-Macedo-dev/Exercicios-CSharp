@@ -1,12 +1,41 @@
-# Pastas de build
+## Ignore arquivos de build
 bin/
 obj/
+out/
 
-# Arquivos do Visual Studio
+## Ignore arquivos do Visual Studio
 *.user
 *.suo
+*.userosscache
+*.sln.docstates
 *.vs/
 
-# Logs e temporários
+## Ignore pacotes NuGet
+*.nupkg
+*.snupkg
+*.nuget.props
+*.nuget.targets
+
+## Ignore cache do Visual Studio
+.vs/
+.vscode/
+
+## Ignore logs e temporários
 *.log
 *.tmp
+*.cache
+*.DS_Store
+*.idea/
+
+## Ignore arquivos de publicação
+Publish/
+*.publishsettings
+
+## Ignore arquivos gerados pelo Resharper / Rider
+_ReSharper*/
+*.ReSharper*
+*.DotSettings.user
+
+# Configurações de sistema
+Thumbs.db
+Desktop.ini
