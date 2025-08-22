@@ -1,0 +1,12 @@
+# Pastas de build
+bin/
+obj/
+
+# Arquivos do Visual Studio
+*.user
+*.suo
+*.vs/
+
+# Logs e temporários
+*.log
+*.tmp
